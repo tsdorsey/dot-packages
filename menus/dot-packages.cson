@@ -1,0 +1,19 @@
+# See https://atom.io/docs/latest/hacking-atom-package-word-count#menus for more details
+'menu': [
+  {
+    'label': 'Packages'
+    'submenu': [
+      'label': 'dot-packages'
+      'submenu': [
+        {
+          'label': 'Install modules'
+          'command': 'dot-packages:install'
+        }
+        {
+          'label': 'Write files'
+          'command': 'dot-packages:write'
+        }
+      ]
+    ]
+  }
+]
